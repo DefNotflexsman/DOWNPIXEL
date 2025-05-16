@@ -1,0 +1,12 @@
+player_name: JWD9
+language: zh_CN
+setlang: false
+last_location:
+  world: world
+  x: -124.80901010544645
+  y: 72.0
+  z: 257.04721830979946
+  pitch: 50.550068
+  yaw: -329.85962
+deny_list:
+- 0995687e-5d2c-308c-b89b-122caea74bd7

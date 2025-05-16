@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747363160691
+  login: 1747363127466
+money: '0'
+last-account-name: subto_dbzackeee5
+logoutlocation:
+  world: 31842e97-0101-4469-8476-9a902573f8c5
+  world-name: downpixel
+  x: -111.69902092900783
+  y: 71.08584866510816
+  z: 12.546107494969156
+  yaw: 79.35345458984375
+  pitch: 32.09999465942383

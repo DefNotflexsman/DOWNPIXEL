@@ -1,0 +1,10 @@
+tabID=0 tabName=Building_Blocks IconID=45
+tabID=1 tabName=Decorations IconID=38
+tabID=2 tabName=Redstone IconID=331
+tabID=3 tabName=Transportation IconID=27
+tabID=4 tabName=Miscelaneus IconID=327
+tabID=5 tabName=Foodstuffs IconID=260
+tabID=6 tabName=Tools IconID=257
+tabID=7 tabName=Combat IconID=283
+tabID=8 tabName=Brewing IconID=373
+tabID=9 tabName=Materials IconID=265

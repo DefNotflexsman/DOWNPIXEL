@@ -1,0 +1,14 @@
+variables:
+  {hearts::%uuid of player%} = 20
+
+on death of player:
+  attacker is a player
+  subtract 2 from {hearts::%uuid of victim%}
+  add 2 to {hearts::%uuid of attacker%}
+  if {hearts::%uuid of victim%} <= 0:
+    ban victim with reason "You ran out of hearts!"
+
+on join:
+  if {hearts::%uuid of player%} is not set:
+    set {hearts::%uuid of player%} to 20
+  set player's max health to {hearts::%uuid of player%}

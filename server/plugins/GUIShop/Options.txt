@@ -1,0 +1,5 @@
+SHOP_TITLE=§a[Shop]
+DONATE_MESSAGE_ON=true
+DONATE_MESSAGE=§cDonate to gain access!
+ALLOW_BROWSE=false
+PRICE_MULTIPLIER=1.0

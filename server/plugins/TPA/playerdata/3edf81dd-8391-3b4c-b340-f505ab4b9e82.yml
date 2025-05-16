@@ -1,0 +1,17 @@
+player_name: hielelel
+language: zh_CN
+setlang: false
+last_location:
+  world: world
+  x: -116.75958656493447
+  y: 71.0
+  z: 248.31123871836033
+  pitch: 14.099998
+  yaw: -141.7357
+logout_location:
+  world: world
+  x: -116.75958656493447
+  y: 71.0
+  z: 248.31123871836033
+  pitch: 14.099998
+  yaw: -141.7357

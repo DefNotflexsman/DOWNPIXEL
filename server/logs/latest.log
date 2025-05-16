@@ -1,0 +1,391 @@
+[02:24:04] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:24:04] [Server thread/INFO]: Loading properties
+[02:24:04] [Server thread/INFO]: Default game type: SURVIVAL
+[02:24:04] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:24:04] [Server thread/INFO]: Debug logging is disabled
+[02:24:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:24:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:24:04] [Server thread/INFO]: Generating keypair
+[02:24:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:24:05] [Server thread/INFO]: Using epoll channel type
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/modularwarfare-shining-2024.2.4.6f.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/GEP 3.2.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:150) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 6 more
+[02:24:05] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/lifesteal.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: me/ikevoodoo/lssmp/LifestealInit has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: me/ikevoodoo/lssmp/LifestealInit has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/ArmoredElytra.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: nl/pim16aap2/armoredElytra/ArmoredElytra has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: nl/pim16aap2/armoredElytra/ArmoredElytra has been compiled by a more recent version of the Java Runtime (class file version 60.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/ViaVersion-5.3.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/ViaBackwards-5.3.2.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: ViaVersion
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:218) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[02:24:05] [Server thread/ERROR]: Could not load 'plugins/NexusAuctionHouse-1.5.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: cc/synkdev/synkLibs/components/SynkPlugin
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:131) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:329) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:251) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadPlugins(CraftServer.java:318) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:222) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+Caused by: java.lang.NoClassDefFoundError: cc/synkdev/synkLibs/components/SynkPlugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: cc.synkdev.synkLibs.components.SynkPlugin
+	at java.net.URLClassLoader.findClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:156) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:152) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:104) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Unknown Source) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:127) ~[patched_1.12.2.jar:git-Paper-1620]
+	... 6 more
+[02:24:05] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v7.6
+[02:24:05] [Server thread/INFO]: [ajQueue] Loading ajQueue v2.7.0
+[02:24:05] [Server thread/INFO]: [Tebex] Loading Tebex v2.2.1
+[02:24:05] [Server thread/INFO]: [CrackShot] Loading CrackShot v0.98.11
+[02:24:05] [Server thread/INFO]: [FrameDupe] Loading FrameDupe v1.7.3
+[02:24:05] [Server thread/INFO]: [SilkSpawners] Loading SilkSpawners v8.2.0
+[02:24:05] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.145
+[02:24:06] [Server thread/INFO]: [Discord-Linker] Loading Discord-Linker v3.5.1
+[02:24:06] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[02:24:06] [Server thread/INFO]: [QualityArmory] Loading QualityArmory v2.0.19
+[02:24:06] [Server thread/INFO]: [Essentials] Loading Essentials v2.21.0
+[02:24:06] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.12.2
+[02:24:06] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.7.0-FORK-b53
+[02:24:06] [Server thread/INFO]: [TAB] Loading TAB v5.2.0
+[02:24:06] [Server thread/WARN]: Server permissions file permissions.yml is not valid YAML.
+java.lang.ClassCastException: class java.lang.String cannot be cast to class java.util.Map (java.lang.String and java.util.Map are in module java.base of loader 'bootstrap')
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.loadCustomPermissions(CraftServer.java:846) ~[patched_1.12.2.jar:git-Paper-1620]
+	at org.bukkit.craftbukkit.v1_12_R1.CraftServer.enablePlugins(CraftServer.java:337) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:223) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.12.2.jar:git-Paper-1620]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[02:24:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.145
+[02:24:07] [Server thread/INFO]:         __    
+[02:24:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.145
+[02:24:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:24:07] [Server thread/INFO]: 
+[02:24:07] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:24:08] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:24:09] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:24:09] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:24:09] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3199ms)
+[02:24:09] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:24:09] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:24:09] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:24:09] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:24:09] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:24:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:24:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:24:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:24:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:24:09] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:24:09] [Server thread/INFO]: Preparing level "downpixel"
+[02:24:10] [Server thread/INFO]: -------- World Settings For [downpixel] --------
+[02:24:10] [Server thread/INFO]: Mob Spawn Range: 4
+[02:24:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:24:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:24:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:24:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:24:10] [Server thread/INFO]: Random Lighting Updates: false
+[02:24:10] [Server thread/INFO]: Structure Info Saving: true
+[02:24:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:24:10] [Server thread/INFO]: Max TNT Explosions: 100
+[02:24:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:24:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:24:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:24:10] [Server thread/INFO]: View Distance: 5
+[02:24:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:24:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:24:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:24:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:24:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:24:11] [Server thread/INFO]: -------- World Settings For [downpixel_nether] --------
+[02:24:11] [Server thread/INFO]: Mob Spawn Range: 4
+[02:24:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:24:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:24:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:24:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:24:11] [Server thread/INFO]: Random Lighting Updates: false
+[02:24:11] [Server thread/INFO]: Structure Info Saving: true
+[02:24:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:24:11] [Server thread/INFO]: Max TNT Explosions: 100
+[02:24:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:24:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:24:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:24:11] [Server thread/INFO]: View Distance: 5
+[02:24:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:24:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:24:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:24:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:24:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:24:12] [Server thread/INFO]: -------- World Settings For [downpixel_the_end] --------
+[02:24:12] [Server thread/INFO]: Mob Spawn Range: 4
+[02:24:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:24:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:24:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:24:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:24:12] [Server thread/INFO]: Random Lighting Updates: false
+[02:24:12] [Server thread/INFO]: Structure Info Saving: true
+[02:24:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:24:12] [Server thread/INFO]: Max TNT Explosions: 100
+[02:24:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:24:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:24:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:24:12] [Server thread/INFO]: View Distance: 5
+[02:24:12] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:24:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:24:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:24:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:24:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:24:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3763402223414917664)
+[02:24:13] [Server thread/INFO]: Preparing spawn area: 0%
+[02:24:14] [Server thread/INFO]: Preparing spawn area: 7%
+[02:24:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3763402223414917664)
+[02:24:16] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3763402223414917664)
+[02:24:16] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v7.6
+[02:24:16] [Server thread/INFO]: [SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9
+[02:24:16] [Server thread/INFO]: [SimpleTpa] Simple Tpa has been enabled on version 7.6
+[02:24:16] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[02:24:16] [Server thread/INFO]: [ajQueue] Enabling ajQueue v2.7.0
+[02:24:17] [Server thread/INFO]: [ajQueue] Spigot side enabled! v2.7.0
+[02:24:17] [Server thread/INFO]: [Tebex] Enabling Tebex v2.2.1
+[02:24:17] [Server thread/INFO]: [Tebex] Welcome to Tebex! It seems like this is a new setup.
+[02:24:17] [Server thread/INFO]: [Tebex] To get started, please use the 'tebex secret <key>' command in the console.
+[02:24:17] [Server thread/INFO]: [CrackShot] Enabling CrackShot v0.98.11
+[02:24:17] [Server thread/INFO]: [CrackShot] Gun-mode activated. Boop!
+[02:24:18] [Server thread/INFO]: [FrameDupe] Enabling FrameDupe v1.7.3
+[02:24:18] [Server thread/INFO]: FrameDupe by MrRafter loaded successfully (MC Version: 12)
+[02:24:18] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v8.2.0
+[02:24:18] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[02:24:18] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[02:24:18] [Server thread/INFO]: [SilkSpawners] Loading support for v1_12_R1
+[02:24:18] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[02:24:18] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[02:24:18] [Server thread/INFO]: [Discord-Linker] Enabling Discord-Linker v3.5.1
+[02:24:18] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.19
+[02:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: v1_12_R1! Trying to find NMS support
+[02:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_12_R1' loaded!
+[02:24:18] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'QualityArmory' to create a bStats instance!
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loaded 8 Misc.
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loaded 64 Gun types.
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loaded 2 Attachment types.
+[02:24:19] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[02:24:19] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.0
+[02:24:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:24:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Legacy Damage Event Provider as the provider for DamageEventProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Fixed Height World Info Provider as the provider for WorldInfoProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Reflection Sync Commands Provider as the provider for SyncCommandsProvider
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for BiomeKeyProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Legacy InventoryView Abstract Class ABI Provider as the provider for InventoryViewProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.9-1.20.4 Potion Meta Provider as the provider for PotionMetaProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.9-1.12.2 Spawn Egg Provider as the provider for SpawnEggProvider
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for SignDataProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Reflection Server State Provider as the provider for ServerStateProvider
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for SerializationProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Reflection Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for MaterialTagProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for TickCountProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] No provider found for ContainerProvider, but it is nullable
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Legacy Banner Meta Provider as the provider for BannerDataProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:24:20] [Server thread/INFO]: [Essentials] Loaded 853 items from items.csv.
+[02:24:20] [Server thread/INFO]: [Essentials] Using locale en
+[02:24:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:24:21] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:24:21] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:24:21] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[02:24:21] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.2
+[02:24:21] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file.
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.12.2...
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: SilkSpawners found, integrating...
+[02:24:22] [Server thread/INFO]: [SilkSpawners] WorldGuard was not found and support is disabled
+[02:24:22] [Server thread/INFO]: [SilkSpawners] Mimic was not found and support is disabled
+[02:24:22] [Server thread/INFO]: [SilkSpawners] Loading support for v1_12_R1
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using SilkSpawners as spawner provider.
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[02:24:22] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[02:24:23] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 1903ms to complete
+[02:24:23] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.7.0-FORK-b53
+[02:24:23] [Server thread/INFO]: [AuthMe] You are running an unofficial fork version of AuthMe!
+[02:24:23] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[02:24:23] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[02:24:23] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[02:24:23] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/Eaglercraft-1.12-Server-Hosting/server/plugins/Essentials/spawn.yml'
+[02:24:24] [Server thread/INFO]: [AuthMe] 
+    ___         __  __    __  ___   
+   /   | __  __/ /_/ /_  /  |/  /__ 
+  / /| |/ / / / __/ __ \/ /|_/ / _ \
+ / ___ / /_/ / /_/ / / / /  / /  __/
+/_/  |_\__,_/\__/_/ /_/_/  /_/\___/ 
+                                    
+[02:24:24] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is running on Paper
+[02:24:24] [Server thread/INFO]: [AuthMe] AuthMeReReloaded is enabled successfully!
+[02:24:24] [Server thread/INFO]: [AuthMe] GitHub: https://github.com/HaHaWTH/AuthMeReReloaded/
+[02:24:24] [Server thread/INFO]: [AuthMe] Checking for updates...
+[02:24:24] [Server thread/INFO]: [TAB] Enabling TAB v5.2.0
+[02:24:24] [Server thread/INFO]: [TAB] Loaded NMS hook in 18ms
+[02:24:24] [Server thread/INFO]: [TAB] Enabled in 350ms
+[02:24:24] [Server thread/INFO]: Done (14.987s)! For help, type "help" or "?"
+[02:24:24] [Server thread/INFO]: Timings Reset
+[02:24:25] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[02:24:25] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:24:25] [Craft Scheduler Thread - 0/INFO]: [Essentials] Fetching version information...
+[02:24:25] [Craft Scheduler Thread - 6/INFO]: [Vault] Checking for Updates ... 
+[02:24:25] [Craft Scheduler Thread - 6/INFO]: [Vault] No new version available
+[02:24:25] [Craft Scheduler Thread - 5/INFO]: [AuthMe] You are running the latest version.
+[02:24:25] [Craft Scheduler Thread - 4/INFO]: [Discord-Linker] Plugin enabled.
+[02:24:26] [EventThread/INFO]: [Discord-Linker] Connected to the Discord Bot!
+[02:38:46] [User Authenticator #1/INFO]: UUID of player subto_dbzackeee5 is f16d8bee-918a-3e2c-acea-2f5692c49a66
+[02:38:47] [Server thread/INFO]: subto_dbzackeee5[/0:0:0:0:0:0:0:1%0:36756] logged in with entity id 43 at ([downpixel]-101.49349520776175, 63.0, 22.811045574803167)
+[02:38:48] [Craft Scheduler Thread - 64/INFO]: [AuthMe] subto_dbzackeee5 logged in 0:0:0:0:0:0:0:1%0
+[02:38:51] [Server thread/INFO]: subto_dbzackeee5 issued server command: /v
+[02:39:08] [Server thread/INFO]: subto_dbzackeee5 issued server command: /v
+[02:39:20] [Server thread/INFO]: subto_dbzackeee5 lost connection: Disconnected

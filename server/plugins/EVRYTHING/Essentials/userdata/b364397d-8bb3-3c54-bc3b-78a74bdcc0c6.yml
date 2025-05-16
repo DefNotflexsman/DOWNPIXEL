@@ -1,0 +1,31 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1%0
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1747175231118
+  login: 1747175201366
+money: '0'
+last-account-name: why_you_asking
+logoutlocation:
+  world: 31842e97-0101-4469-8476-9a902573f8c5
+  world-name: downpixel
+  x: -99.5
+  y: 63.0
+  z: 31.5
+  yaw: 3.4412624835968018
+  pitch: 0.0
+mail: []
