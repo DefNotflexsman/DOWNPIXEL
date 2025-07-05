@@ -1,0 +1,10 @@
+bash -c 'mkdir -p my-discord-bot && cd my-discord-bot && \
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && \
+sudo apt-get install -y nodejs && \
+npm init -y && \
+npm install discord.js && \
+echo "const { Client, GatewayIntentBits } = require(\'discord.js\');\n\
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] });\n\
+client.once(\'ready\', () => { console.log(\'Bot is online!\'); });\n\
+client.on(\'messageCreate\', message => { if (message.content === \'!ping\') { message.channel.send(\'Pong!\'); } });\n\
+client.login(\'MTM4MDY5ODU5MDc2NjQzMjI3Ng.GA8wub.ttKh5nBVl6UZTZ4WKf8H8FhSVhWEXGrFdaMPuk\');" > index.js'
